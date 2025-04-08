@@ -1,5 +1,5 @@
 .header {
-    background-color: orange;
+    background-color: #fad67e;
     height: 20vh;
     width: 100%;
 }
@@ -11,11 +11,11 @@
 }
 
 .footer {
-    background-color: rgb(100, 100, 100);
+    background-color: #e6e5e5;
     height: 20vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .footer :right{
@@ -23,3 +23,16 @@
     width: 33%
 
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .item {
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+  }
+  
