@@ -6,8 +6,9 @@
 
 .main {
     background-color: azure;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
+    padding-block: 2em;
 }
 
 .footer {
@@ -18,21 +19,40 @@
     justify-content: space-around;
 }
 
-.footer :right{
-    height: 100%;
-    width: 33%
-
-}
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, minmax(20px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
   }
-  
-  .item {
-    background: lightgray;
+
+  .grid-container > figure {
+    padding: 35px;
+    text-align: center;
+    min-height: 60px;
+  }
+
+  .item_r {
+    background: #f69877;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .item_r.box_header {
+    background: #f69877;
     padding: 20px;
     text-align: center;
   }
   
+  .item_b {
+    background: #c8ecf1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .item_y {
+    background: #fad57d;
+    padding: 20px;
+    text-align: center;
+  }
