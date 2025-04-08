@@ -38,12 +38,6 @@
     padding: 20px;
     text-align: center;
   }
-
-  .item_r.box_header {
-    background: #f69877;
-    padding: 20px;
-    text-align: center;
-  }
   
   .item_b {
     background: #c8ecf1;
@@ -55,4 +49,25 @@
     background: #fad57d;
     padding: 20px;
     text-align: center;
+  }
+
+  .item_b .box_header {
+    background-color: #a0babe;
+  }
+
+  .item_r .box_header {
+    background-color: #bb785d;
+  }
+
+  .item_y .box_header {
+    background-color: #c3a860;
+  }
+
+  .box_header {
+    height: 18px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
   }
