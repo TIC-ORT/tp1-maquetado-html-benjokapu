@@ -16,7 +16,7 @@ body{
 }
 
 .header_box {
-  background-color: #c3a860;
+  background-color: #f9c76a;
   height: 70%;
   width: 20%;
   left: 5vw;
@@ -25,14 +25,14 @@ body{
 }
 
 .header_box h1 {
-    color: #000000;
+    color: #f8b857;
     font-size: 2.5em;
     text-align: center;
     padding-top: 1vh;
 }
 
 .header_box h3 {
-    color: #000000;
+    color: #f8b857;
     font-size: 1.5em;
     text-align: center;
     padding-top: 1vh;
@@ -42,11 +42,17 @@ body{
   }
 
 .header_text {
-    color: #000000;
     font-weight: bold;
     padding-top: 2vh;
     left: 30%;
     position: absolute;
+}
+
+.header_text h1 {
+    color: #f8b857;
+}
+.header_text h3 {
+  color: #ffffff;
 }
 
 .main {
@@ -67,6 +73,12 @@ body{
     gap: 3vw;
 }
 
+.text_footer {
+    color: #ffffff;
+}
+.title_footer {
+    color: #cbcac9;
+}
 
 .grid-container {
     display: grid;
@@ -104,15 +116,15 @@ body{
   }
 
   .item_b .box_header {
-    background-color: #a0babe;
+    background-color: #b0dfe4;
   }
 
   .item_r .box_header {
-    background-color: #bb785d;
+    background-color: #ec8360;
   }
 
   .item_y .box_header {
-    background-color: #c3a860;
+    background-color: #f8b857;
   }
 
   .box_header {
@@ -126,15 +138,15 @@ body{
   }
 
   .item_b .box_center {
-    background-color: #a0babe;
+    background-color: #b0dfe4;
   }
 
   .item_r .box_center {
-    background-color: #bb785d;
+    background-color: #ec8360;
   }
 
   .item_y .box_center {
-    background-color: #c3a860;
+    background-color: #f8b857;
   }
 
   .box_center {
